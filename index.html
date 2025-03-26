@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Basketball Scoreboard</title>
+    </head>
+    <body>
+        <h1>Basketball Scoreboard</h1>
+        <div class="container">
+        
+            <div>
+                <h3>HOME</h3>
+                <p id="displayOne">0</p>
+                <button id="add-1" onclick="addOne()">+1</button>
+                <button id= "add-2"onclick="addTwo()">+2</button>
+                <button id="add-3" onclick="addThree()">+3</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <p id ="displayTwo">0</p>
+                <button id="add-1" onclick="add1()">+1</button>
+                <button id="add-2" onclick="add2()">+2</button>
+                <button id="add-3" onclick="add3()">+3</button>
+            </div>
+        </div>
+        <button id ="reset" onclick="resetValues()">RESET VALUES</button>
+        <script src="index.js"></script>
+    </body>
+</html>
