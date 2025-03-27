@@ -36,5 +36,5 @@ function resetValues(){
     count2 = 0
     scoreBoard1.textContent = 0
     scoreBoard2.textContent = 0
-    
+  
 }
